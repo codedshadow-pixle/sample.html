@@ -1499,10 +1499,10 @@
                             <small>Instagram</small>
 
                             <a
-                                href="https://www.instagram.com/shadowvibes383/"
+                                href="https://www.instagram.com/not_ur_jayesh?stkn=MWJvNHV0MDJ0ZTh4cA=="
                                 target="_blank"
                                 rel="noopener noreferrer">
-                                @shadowvibes383
+                                @not_ur_jayesh
                             </a>
 
                         </div>
