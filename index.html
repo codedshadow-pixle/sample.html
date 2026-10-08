@@ -1456,117 +1456,35 @@
 
         <!-- ================= CONTACT ================= -->
 
-        <section id="contact">
+        <form
+    id="contactForm"
+    action="https://formspree.io/f/mrpeprna"
+    method="POST">
 
-            <div class="container">
+    <input
+        type="text"
+        name="name"
+        placeholder="Your Name"
+        required>
 
-                <div class="section-heading reveal">
+    <input
+        type="email"
+        name="email"
+        placeholder="Your Email"
+        required>
 
-                    <span>Contact</span>
+    <textarea
+        name="message"
+        placeholder="Your Message"
+        required></textarea>
 
-                    <h2>
-                        Let's connect.
-                    </h2>
+    <button
+        type="submit"
+        class="btn btn-primary">
+        Send Message
+    </button>
 
-                    <p>
-                        You can find me through my social
-                        profiles or send a message below.
-                    </p>
-
-                </div>
-
-
-                <div class="contact-grid">
-
-                    <div class="card contact-info reveal">
-
-                        <div class="contact-item">
-
-                            <small>GitHub</small>
-
-                            <a
-                                href="https://github.com/codedshadow-pixle"
-                                target="_blank"
-                                rel="noopener noreferrer">
-                                github.com/codedshadow-pixle
-                            </a>
-
-                        </div>
-
-
-                        <div class="contact-item">
-
-                            <small>Instagram</small>
-
-                            <a
-                                href="https://www.instagram.com/not_ur_jayesh/"
-                                target="_blank"
-                                rel="noopener noreferrer">
-                                @not_ur_jayesh
-                            </a>
-
-                        </div>
-
-
-                        <div class="contact-item">
-
-                            <small>Location</small>
-
-                            <p>
-                                Jaipur, Rajasthan, India
-                            </p>
-
-                        </div>
-
-
-                        <div class="contact-item">
-
-                            <small>Status</small>
-
-                            <p>
-                                Open to learning & opportunities
-                            </p>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="card reveal">
-
-                        <form id="contactForm">
-
-                            <input
-                                type="text"
-                                placeholder="Your Name"
-                                required>
-
-                            <input
-                                type="email"
-                                placeholder="Your Email"
-                                required>
-
-                            <textarea
-                                placeholder="Your Message"
-                                required></textarea>
-
-                            <button
-                                type="submit"
-                                class="btn btn-primary">
-                                Send Message
-                            </button>
-
-                        </form>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
+</form>
         <!-- ================= PRIVACY ================= -->
 
         <section>
@@ -1697,24 +1615,6 @@
         document.querySelectorAll(".reveal").forEach(element => {
             observer.observe(element);
         });
-
-
-        /* Contact Form */
-
-        document.getElementById("contactForm")
-            .addEventListener("submit", function(event) {
-
-                event.preventDefault();
-
-                alert(
-                    "Thanks for reaching out, Jayesh will get back to you!"
-                );
-
-                this.reset();
-
-            });
-
-    </script>
 
 </body>
 </html>
