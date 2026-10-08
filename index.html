@@ -9,6 +9,24 @@
     <meta name="description"
         content="Jayesh Godara - BCA student, developer and learner from Jaipur, Rajasthan.">
 
+    <!-- ================= GOOGLE ANALYTICS ================= -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2HV9R9NJHQ"></script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-2HV9R9NJHQ');
+    </script>
+
+    <!-- ================= GOOGLE FONTS ================= -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -1538,6 +1556,11 @@
                             id="contactForm"
                             action="https://formspree.io/f/mrpeprna"
                             method="POST">
+
+                            <input
+                                type="hidden"
+                                name="_subject"
+                                value="New Portfolio Contact Message">
 
                             <input
                                 type="text"
