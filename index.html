@@ -1456,35 +1456,123 @@
 
         <!-- ================= CONTACT ================= -->
 
-        <form
-    id="contactForm"
-    action="https://formspree.io/f/mrpeprna"
-    method="POST">
+        <section id="contact">
 
-    <input
-        type="text"
-        name="name"
-        placeholder="Your Name"
-        required>
+            <div class="container">
 
-    <input
-        type="email"
-        name="email"
-        placeholder="Your Email"
-        required>
+                <div class="section-heading reveal">
 
-    <textarea
-        name="message"
-        placeholder="Your Message"
-        required></textarea>
+                    <span>Contact</span>
 
-    <button
-        type="submit"
-        class="btn btn-primary">
-        Send Message
-    </button>
+                    <h2>
+                        Let's connect.
+                    </h2>
 
-</form>
+                    <p>
+                        You can find me through my social
+                        profiles or send a message below.
+                    </p>
+
+                </div>
+
+
+                <div class="contact-grid">
+
+                    <div class="card contact-info reveal">
+
+                        <div class="contact-item">
+
+                            <small>GitHub</small>
+
+                            <a
+                                href="https://github.com/codedshadow-pixle"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                github.com/codedshadow-pixle
+                            </a>
+
+                        </div>
+
+
+                        <div class="contact-item">
+
+                            <small>Instagram</small>
+
+                            <a
+                                href="https://www.instagram.com/not_ur_jayesh/"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                @not_ur_jayesh
+                            </a>
+
+                        </div>
+
+
+                        <div class="contact-item">
+
+                            <small>Location</small>
+
+                            <p>
+                                Jaipur, Rajasthan, India
+                            </p>
+
+                        </div>
+
+
+                        <div class="contact-item">
+
+                            <small>Status</small>
+
+                            <p>
+                                Open to learning & opportunities
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="card reveal">
+
+                        <form
+                            id="contactForm"
+                            action="https://formspree.io/f/mrpeprna"
+                            method="POST">
+
+                            <input
+                                type="text"
+                                name="name"
+                                placeholder="Your Name"
+                                required>
+
+                            <input
+                                type="email"
+                                name="email"
+                                placeholder="Your Email"
+                                required>
+
+                            <textarea
+                                name="message"
+                                placeholder="Your Message"
+                                required></textarea>
+
+                            <button
+                                type="submit"
+                                class="btn btn-primary">
+                                Send Message
+                            </button>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
         <!-- ================= PRIVACY ================= -->
 
         <section>
@@ -1615,6 +1703,8 @@
         document.querySelectorAll(".reveal").forEach(element => {
             observer.observe(element);
         });
+
+    </script>
 
 </body>
 </html>
